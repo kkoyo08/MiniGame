@@ -9,7 +9,8 @@ public class GameManager : SingletonMonoBehaviour<GameManager>
 
     public void MapColliderOn()
     {
-        GameObject mapPrefab = Instantiate(mapObjectPrefab[0]);
+        int check = Random.Range(0, mapObjectPrefab.Length);
+        GameObject mapPrefab = Instantiate(mapObjectPrefab[check]);
         mapPrefab.transform.position = new Vector3(40, 0, 0);
         mapPrefab.transform.parent = mapObjectController.gameObject.transform;
     }
