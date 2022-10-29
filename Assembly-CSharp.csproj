@@ -58,6 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\3_Tetris\3.Scripts\TetrisBlock.cs" />
     <Compile Include="Assets\3_Tetris\3.Scripts\spawnertetris.cs" />
+    <Compile Include="Assets\2_RunGame\Wall.cs" />
+    <Compile Include="Assets\2_RunGame\Player.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

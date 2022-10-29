@@ -1,1 +1,5 @@
-sceneSetups: []
+sceneSetups:
+- path: "Assets/2_RunGame/\uACF5\uB8E1\uCD5C\uC885\uC77C\uAE4C.unity"
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
